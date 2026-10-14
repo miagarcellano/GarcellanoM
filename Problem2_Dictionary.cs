@@ -19,7 +19,7 @@ using System.Collections.Generic;
             bool running = true;
             while (running)
             {
-                                Console.WriteLine("   STUDENT LOOKUP USING DICTIONARY ");
+                Console.WriteLine("   STUDENT LOOKUP USING DICTIONARY ");
                 Console.WriteLine("1. Add Student");
                 Console.WriteLine("2. Search Student");
                 Console.WriteLine("3. Display All Students");
