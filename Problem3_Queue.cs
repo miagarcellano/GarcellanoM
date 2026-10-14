@@ -25,7 +25,7 @@ using System.Collections.Generic;
                 Console.WriteLine("2. View Pending Requests");
                 Console.WriteLine("3. Process Request");
                 Console.WriteLine("4. Exit");
-                Console.Write("\nEnter choice: ");
+                Console.Write("\nEnter number: ");
 
                 if (!int.TryParse(Console.ReadLine(), out int choice))
                 {
