@@ -28,7 +28,7 @@ using System.Collections.Generic;
 
                 if (!int.TryParse(Console.ReadLine(), out int number))
                 {
-                    Console.WriteLine("Invalid choice. Try again.\n");
+                    Console.WriteLine("Invalid number. Try again.\n");
                     continue;
                 }
 
