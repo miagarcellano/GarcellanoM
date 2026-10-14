@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-{
     struct StudentRequest
     {
         public string StudentNumber;
