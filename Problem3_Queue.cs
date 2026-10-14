@@ -33,7 +33,7 @@ using System.Collections.Generic;
                     continue;
                 }
 
-                switch (choice)
+                switch (number)
                 {
                     case 1:
                         AddRequest();
