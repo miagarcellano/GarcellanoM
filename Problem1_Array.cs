@@ -27,7 +27,7 @@ using System;
                 Console.WriteLine("6. Exit");
                 Console.Write("\nEnter number: ");
 
-                if (!int.TryParse(Console.ReadLine(), out int choice))
+                if (!int.TryParse(Console.ReadLine(), out int number))
                 {
                     Console.WriteLine("Invalid number. Try again.\n");
                     continue;
