@@ -15,12 +15,6 @@ using System.Collections.Generic;
 
         static void Main(string[] args)
         {
-            // Populate sample operations to match standard workflow demo if needed
-            // operationHistory.Push(new Operation { Action = "Added Juan" });
-            // operationHistory.Push(new Operation { Action = "Added Maria" });
-            // operationHistory.Push(new Operation { Action = "Updated Juan" });
-            // operationHistory.Push(new Operation { Action = "Deleted Pedro" });
-
             bool running = true;
             while (running)
             {
@@ -31,7 +25,7 @@ using System.Collections.Generic;
                 Console.WriteLine("2. View Last Operation");
                 Console.WriteLine("3. Remove Last Operation");
                 Console.WriteLine("4. Exit");
-                Console.Write("\nEnter choice: ");
+                Console.Write("\nEnter number: ");
 
                 if (!int.TryParse(Console.ReadLine(), out int choice))
                 {
