@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-{
     struct Operation
     {
         public string Action;
