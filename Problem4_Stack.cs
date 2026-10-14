@@ -27,7 +27,7 @@ using System.Collections.Generic;
                 Console.WriteLine("4. Exit");
                 Console.Write("\nEnter number: ");
 
-                if (!int.TryParse(Console.ReadLine(), out int choice))
+                if (!int.TryParse(Console.ReadLine(), out int number))
                 {
                     Console.WriteLine("Invalid choice. Try again.\n");
                     continue;
