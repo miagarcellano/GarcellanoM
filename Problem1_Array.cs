@@ -25,7 +25,7 @@ using System;
                 Console.WriteLine("4. Update Student");
                 Console.WriteLine("5. Delete Student");
                 Console.WriteLine("6. Exit");
-                Console.Write("\nEnter choice: ");
+                Console.Write("\nEnter number: ");
 
                 if (!int.TryParse(Console.ReadLine(), out int choice))
                 {
@@ -33,7 +33,7 @@ using System;
                     continue;
                 }
 
-                switch (choice)
+                switch (number)
                 {
                     case 1:
                         AddStudent();
@@ -160,7 +160,9 @@ using System;
                     studentCount--;
                     Console.WriteLine("Student record deleted successfully!\n");
                     return;
+                    
                 }
             }
             Console.WriteLine("Student not found.\n");
         }
+    }
