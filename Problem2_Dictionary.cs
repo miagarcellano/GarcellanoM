@@ -24,7 +24,7 @@ using System.Collections.Generic;
                 Console.WriteLine("2. Search Student");
                 Console.WriteLine("3. Display All Students");
                 Console.WriteLine("4. Exit");
-                Console.Write("\nEnter choice: ");
+                Console.Write("\nEnter number: ");
 
                 if (!int.TryParse(Console.ReadLine(), out int choice))
                 {
@@ -32,7 +32,7 @@ using System.Collections.Generic;
                     continue;
                 }
 
-                switch (choice)
+                switch (number)
                 {
                     case 1:
                         AddStudent();
